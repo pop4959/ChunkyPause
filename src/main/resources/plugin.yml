@@ -1,0 +1,14 @@
+name: ChunkyPause
+version: 1.0.0
+main: org.popcraft.chunkypause.ChunkyPause
+api-version: 1.13
+depend: [ Chunky ]
+authors: [ pop4959 ]
+description: Additional pause functionality for Chunky
+commands:
+  chunkypause:
+    description: Set the player count to pause at.
+    permission: chunkypause
+permissions:
+  chunkypause:
+    default: op
